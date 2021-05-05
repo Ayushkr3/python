@@ -6,5 +6,5 @@ s.listen(10)
 while True:
     
     conn,ca = s.accept()
-    print("conn by ",conn)
+    print("conn by ",ca)
     conn.recv(1024)
